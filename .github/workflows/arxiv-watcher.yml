@@ -1,0 +1,35 @@
+name: arxiv watcher
+
+on:
+  schedule:
+    - cron: '11 5 * * 1'   # Mondays 05:11 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (log only, don't open issues)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run arxiv watcher
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
+        run: python3 scripts/arxiv_watcher.py

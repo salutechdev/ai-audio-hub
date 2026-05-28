@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "CosyVoice 2",
+    "Title": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
+    "Time": "2024-12",
+    "Affiliation": "FunAudioLLM Team, Tongyi Lab, Alibaba Group",
+    "Author": "Zhihao Du, Yuxuan Wang, Qian Chen, Xian Shi, Xiang Lv, Tianyu Zhao, Zhifu Gao, Yexin Yang, Changfeng Gao, Hui Wang, Fan Yu, Huadai Liu, Zhengyan Sheng, Yue Gu, Chong Deng, Wen Wang, Shiliang Zhang, Zhijie Yan, Jingren Zhou",
+    "GitHub_Link": "https://github.com/FunAudioLLM/CosyVoice",
+    "Paper_Link": "https://arxiv.org/abs/2412.10117",
+    "HF_Link": "https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B",
+    "Demo_Link": "https://funaudiollm.github.io/cosyvoice2/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "CosyVoice 2 is Alibaba's streaming TTS LLM, combining a unified speech tokenizer with a streaming-friendly LLM backbone to enable bidirectional streaming with sub-150 ms latency and improved cross-lingual zero-shot voice cloning."
+}

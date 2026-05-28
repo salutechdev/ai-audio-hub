@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Music Generation Model",
+    "Abbreviation": "MusicGen",
+    "Title": "Simple and Controllable Music Generation",
+    "Time": "2023-06",
+    "Affiliation": "Meta AI",
+    "Author": "Jade Copet, Felix Kreuk, Itai Gat, Tal Remez, David Kant, Gabriel Synnaeve, Yossi Adi, Alexandre Défossez",
+    "GitHub_Link": "https://github.com/facebookresearch/audiocraft",
+    "Paper_Link": "https://arxiv.org/abs/2306.05284",
+    "HF_Link": "https://huggingface.co/facebook/musicgen-large",
+    "Demo_Link": "https://huggingface.co/spaces/facebook/MusicGen",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "MusicGen is Meta's single-stage autoregressive transformer for controllable text-conditioned music generation, operating over discrete EnCodec tokens with optional melody conditioning. Part of the AudioCraft suite."
+}

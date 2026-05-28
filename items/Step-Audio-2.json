@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Audio LLM",
+    "Abbreviation": "Step-Audio 2",
+    "Title": "Step-Audio 2 Technical Report",
+    "Time": "2025-07",
+    "Affiliation": "Step-Audio Team, StepFun",
+    "Author": "Step-Audio Team (Boyong Wu, Chao Yan, Chen Hu, Cheng Yi, Chengli Feng, Fei Tian, Feiyu Shen, Gang Li, et al.)",
+    "GitHub_Link": "https://github.com/stepfun-ai/Step-Audio2",
+    "Paper_Link": "https://arxiv.org/abs/2507.16632",
+    "HF_Link": "https://huggingface.co/stepfun-ai",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "Step-Audio 2 is the successor to Step-Audio, scaling the unified speech understanding-and-generation LLM with stronger emotion, paralinguistics, and real-time interaction. Supports both bilingual (Chinese / English) and multilingual end-to-end speech dialogue."
+}

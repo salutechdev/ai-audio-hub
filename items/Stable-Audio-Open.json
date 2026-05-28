@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Audio Generation Model",
+    "Abbreviation": "Stable Audio Open",
+    "Title": "Stable Audio Open",
+    "Time": "2024-07",
+    "Affiliation": "Stability AI",
+    "Author": "Zach Evans, Julian D. Parker, CJ Carr, Zack Zukowski, Josiah Taylor, Jordi Pons",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2407.14358",
+    "HF_Link": "https://huggingface.co/stabilityai/stable-audio-open-1.0",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "No",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "Stable Audio Open is Stability AI's open-weight text-to-audio diffusion model for generating short stereo audio clips (up to ~47s) including sound effects and music samples, trained only on Creative Commons audio."
+}

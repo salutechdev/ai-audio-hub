@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "Audio-Reasoner",
+    "Title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
+    "Time": "2025-03",
+    "Affiliation": "Nanyang Technological University, Skywork AI",
+    "Author": "Zhifei Xie, Mingbao Lin, Zihang Liu, Pengcheng Wu, Shuicheng Yan, Chunyan Miao",
+    "GitHub_Link": "https://github.com/xzf-thu/Audio-Reasoner",
+    "Paper_Link": "https://arxiv.org/abs/2503.02318",
+    "HF_Link": "",
+    "Demo_Link": "https://xzf-thu.github.io/Audio-Reasoner/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "Audio-Reasoner is a large audio language model designed for deep reasoning over audio. The authors construct CoTA, a 1.2M-sample chain-of-thought dataset for audio tasks, and fine-tune the model to perform structured reasoning on audio understanding benchmarks."
+}

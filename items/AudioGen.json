@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Audio Generation Model",
+    "Abbreviation": "AudioGen",
+    "Title": "AudioGen: Textually Guided Audio Generation",
+    "Time": "2022-09",
+    "Affiliation": "Meta AI, Hebrew University of Jerusalem",
+    "Author": "Felix Kreuk, Gabriel Synnaeve, Adam Polyak, Uriel Singer, Alexandre Défossez, Jade Copet, Devi Parikh, Yaniv Taigman, Yossi Adi",
+    "GitHub_Link": "https://github.com/facebookresearch/audiocraft",
+    "Paper_Link": "https://arxiv.org/abs/2209.15352",
+    "HF_Link": "https://huggingface.co/facebook/audiogen-medium",
+    "Demo_Link": "https://felixkreuk.github.io/audiogen/",
+    "Other_Link": "",
+    "Audio_Input": "No",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "AudioGen is a transformer-based autoregressive model for text-to-environmental-sound generation, trained on discrete audio tokens. It established the recipe later used by MusicGen and is part of Meta's AudioCraft."
+}

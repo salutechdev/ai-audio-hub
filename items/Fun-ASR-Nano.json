@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Speech Recognition Model",
+    "Abbreviation": "Fun-ASR-Nano",
+    "Title": "Fun-ASR Technical Report",
+    "Time": "2025-12",
+    "Affiliation": "FunAudioLLM Team, Tongyi Lab, Alibaba Group",
+    "Author": "FunAudioLLM Team",
+    "GitHub_Link": "https://github.com/FunAudioLLM/Fun-ASR",
+    "Paper_Link": "https://arxiv.org/abs/2509.12508",
+    "HF_Link": "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512",
+    "Demo_Link": "https://huggingface.co/spaces/FunAudioLLM/Fun-ASR-Nano",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "End-to-end LLM-based ASR (SenseVoice Encoder + Transformer Adaptor + Qwen3-0.6B LLM + CTC Decoder) from the FunAudioLLM team. Trained on tens of millions of hours of real speech, supports 31 languages, 7 Chinese dialects, 26 regional accents, lyrics recognition, hotwords, timestamps, and speaker diarization. Streaming inference accelerated via vLLM (up to 393x realtime)."
+}

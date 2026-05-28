@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Neural Audio Codec",
+    "Abbreviation": "EnCodec",
+    "Title": "High Fidelity Neural Audio Compression",
+    "Time": "2022-10",
+    "Affiliation": "Meta AI",
+    "Author": "Alexandre Défossez, Jade Copet, Gabriel Synnaeve, Yossi Adi",
+    "GitHub_Link": "https://github.com/facebookresearch/encodec",
+    "Paper_Link": "https://arxiv.org/abs/2210.13438",
+    "HF_Link": "https://huggingface.co/facebook/encodec_24khz",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "EnCodec is Meta's streaming neural audio codec that compresses 24/48 kHz audio with high perceptual fidelity using a residual vector quantizer. Its discrete tokens are the foundation for MusicGen, AudioGen, and VALL-E."
+}

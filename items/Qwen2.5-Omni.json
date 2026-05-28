@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Omni-Modal LLM",
+    "Abbreviation": "Qwen2.5-Omni",
+    "Title": "Qwen2.5-Omni Technical Report",
+    "Time": "2025-03",
+    "Affiliation": "Qwen Team, Alibaba Group",
+    "Author": "Qwen Team (Jin Xu, Zhifang Guo, Jinzheng He, Hangrui Hu, Ting He, Shuai Bai, Keqin Chen, et al.)",
+    "GitHub_Link": "https://github.com/QwenLM/Qwen2.5-Omni",
+    "Paper_Link": "https://arxiv.org/abs/2503.20215",
+    "HF_Link": "https://huggingface.co/Qwen/Qwen2.5-Omni-7B",
+    "Demo_Link": "https://huggingface.co/spaces/Qwen/Qwen2.5-Omni-7B-Demo",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "Qwen2.5-Omni is Alibaba's end-to-end omni-modal LLM handling text, image, audio, and video as inputs and producing both text and streaming speech outputs, built on a Thinker-Talker dual-track architecture that decouples reasoning and speech generation."
+}

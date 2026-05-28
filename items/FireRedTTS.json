@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "FireRedTTS",
+    "Title": "FireRedTTS-1S: An Upgraded Streamable Foundation Text-to-Speech System",
+    "Time": "2025-03",
+    "Affiliation": "FireRed Team, Xiaohongshu",
+    "Author": "Hao-Han Guo, Yao Hu, Fei-Yu Shen, Xu Tang, Yi-Chen Wu, Feng-Long Xie, Kun Xie",
+    "GitHub_Link": "https://github.com/FireRedTeam/FireRedTTS",
+    "Paper_Link": "https://arxiv.org/abs/2503.20499",
+    "HF_Link": "https://huggingface.co/FireRedTeam",
+    "Demo_Link": "https://fireredteam.github.io/demos/firered_tts_1s/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "FireRedTTS-1S is Xiaohongshu's streamable foundation TTS, improving streaming latency and prosody control over its predecessor with chunk-wise generation suitable for live voice products."
+}

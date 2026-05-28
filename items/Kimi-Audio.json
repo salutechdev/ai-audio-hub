@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Audio LLM",
+    "Abbreviation": "Kimi-Audio",
+    "Title": "Kimi-Audio Technical Report",
+    "Time": "2025-04",
+    "Affiliation": "Moonshot AI",
+    "Author": "KimiTeam (Ding Ding, Zeqian Ju, Yichong Leng, Songxiang Liu, Tong Liu, Zeyu Shang, et al.)",
+    "GitHub_Link": "https://github.com/MoonshotAI/Kimi-Audio",
+    "Paper_Link": "https://arxiv.org/abs/2504.18425",
+    "HF_Link": "https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "Kimi-Audio is Moonshot AI's open-source audio foundation model unifying speech understanding, audio understanding, and speech generation in a single LLM, trained on ~13M hours of audio with strong performance on ASR, audio captioning, audio QA, and speech dialogue."
+}

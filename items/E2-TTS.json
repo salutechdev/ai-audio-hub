@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "E2 TTS",
+    "Title": "E2 TTS: Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS",
+    "Time": "2024-06",
+    "Affiliation": "Microsoft",
+    "Author": "Sefik Emre Eskimez, Xiaofei Wang, Manthan Thakker, Canrun Li, Chung-Hsien Tsai, Zhen Xiao, Hemin Yang, Zirun Zhu, Min Tang, Xu Tan, Yanqing Liu, Sheng Zhao, Naoyuki Kanda",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2406.18009",
+    "HF_Link": "",
+    "Demo_Link": "https://www.microsoft.com/en-us/research/project/e2-tts/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "E2 TTS removes nearly all of the usual TTS pipeline complexity — no phoneme aligner, no duration predictor, no explicit grapheme-to-phoneme model — and trains a flow-matching transformer end-to-end on text + audio. Foundational influence on F5-TTS and follow-on systems."
+}

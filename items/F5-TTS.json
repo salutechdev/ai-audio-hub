@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "F5-TTS",
+    "Title": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+    "Time": "2024-10",
+    "Affiliation": "Shanghai Jiao Tong University",
+    "Author": "Yushen Chen, Zhikang Niu, Ziyang Ma, Keqi Deng, Chunhui Wang, Jian Zhao, Kai Yu, Xie Chen",
+    "GitHub_Link": "https://github.com/SWivid/F5-TTS",
+    "Paper_Link": "https://arxiv.org/abs/2410.06885",
+    "HF_Link": "https://huggingface.co/SWivid/F5-TTS",
+    "Demo_Link": "https://swivid.github.io/F5-TTS/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "F5-TTS is a fully non-autoregressive TTS system based on flow matching with Diffusion Transformer, producing high-fidelity zero-shot voice cloning faster than autoregressive codec-LM TTS systems."
+}

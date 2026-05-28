@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Model",
+    "Abbreviation": "SwanSphere",
+    "Title": "Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Ke Lei, Yu Zhang, Changhao Pan, Xueyi Pu, Wenxiang Guo, Ruiqi Li, Zhou Zhao",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.30940",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "No",
+    "Audio_Output": "Yes",
+    "Language": "",
+    "Description": "SwanSphere is a unified streaming framework for high-fidelity spatial audio generation from panoramic videos and text prompts. It uses a causal autoregressive diffusion transformer for low-latency streaming synthesis and a Spatial Video-Audio Contrastive (SVAC) learning strategy to align the video encoder with acoustic spatial cues."
+}

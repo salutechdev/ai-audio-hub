@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "Model",
+    "Abbreviation": "Chatterbox-Flash",
+    "Title": "Chatterbox-Flash: Prior-Calibrated Block Diffusion for Streaming Zero-Shot TTS",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Deokjin Seo, Gangin Park, Kihyun Nam",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.30748",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "",
+    "Description": "Chatterbox-Flash is a zero-shot TTS model created by fine-tuning a pretrained autoregressive TTS decoder into a block-diffusion decoder, enabling parallel token generation within each block while retaining block-by-block streaming. It introduces two inference-time techniques—prior-calibrated scoring and an early-decoding schedule—to counter the long-tail token bias that otherwise degrades parallel decoding quality."
+}

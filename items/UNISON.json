@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Model",
+    "Abbreviation": "UNISON",
+    "Title": "UNISON: A Unified Sound Generation and Editing Framework via Deep LLM Fusion",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Zhaoqing Li, Haoning Xu, Jingran Su, Yaofang Liu, Zhefan Rao, Huimeng Wang, Jiajun Deng, Tianzi Wang, et al.",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.31530",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "",
+    "Description": "UNISON is a latent diffusion framework that unifies speech generation, sound generation, and audio editing in a single set of weights, covering text-to-audio, text-to-speech, zero-shot speaker cloning, mixed speech-and-sound generation, and scene-level/timed editing. It uses layer-wise deep LLM fusion, injecting hidden states from a frozen MLLM into corresponding MM-DiT blocks for depth-matched semantic conditioning."
+}

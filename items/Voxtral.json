@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Recognition",
+    "Type": "Audio Understanding Model",
+    "Abbreviation": "Voxtral",
+    "Title": "Voxtral",
+    "Time": "2025-07",
+    "Affiliation": "Mistral AI",
+    "Author": "Mistral AI (Alexander H. Liu, Andy Ehrenberg, Andy Lo, Clément Denoix, Corentin Barreau, et al.)",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2507.13264",
+    "HF_Link": "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
+    "Demo_Link": "",
+    "Other_Link": "https://mistral.ai/news/voxtral/",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "Voxtral is Mistral AI's open audio LLM family (3B and 24B) for speech transcription, multilingual understanding, and Q&A over long-form audio — released with permissive weights and competitive performance against closed-source ASR systems."
+}

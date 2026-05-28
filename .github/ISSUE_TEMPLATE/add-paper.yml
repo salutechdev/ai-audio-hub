@@ -1,0 +1,142 @@
+name: Suggest a new paper / model / benchmark
+description: Suggest something to add to Awesome-Audio-LLM. A maintainer will add the corresponding items/<X>.json based on your input.
+title: "[Add] <Abbreviation>: <full title>"
+labels: ["new-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an addition! Please fill in the fields below — they map 1:1 onto the JSON schema in `items/schema.json`. The maintainer will use this to generate `items/<Abbreviation>.json` and regenerate the README.
+
+        **Out of scope:** commercial products without a paper or open model, general TTS/STT/voice-agent tools, consumer apps unrelated to LLM research. See `CONTRIBUTING.md`.
+
+  - type: input
+    id: abbreviation
+    attributes:
+      label: Abbreviation (short canonical name)
+      description: "E.g. `SPIRIT LM`, `Audio Flamingo 2`, `Phi-4-Mini`."
+      placeholder: Phi-4-Mini
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Full title
+      description: As it appears on the paper / model card.
+      placeholder: "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which README section does this belong to?
+      options:
+        - Model and Methods
+        - Benchmark
+        - Dataset Resource
+        - Safety
+        - Multimodal
+        - Survey
+        - Study
+        - Chatbot
+    validations:
+      required: true
+
+  - type: input
+    id: time
+    attributes:
+      label: Date (YYYY-MM)
+      description: arXiv submission month, or release month if no paper.
+      placeholder: 2025-03
+    validations:
+      required: true
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      placeholder: "NVIDIA, University of Maryland"
+    validations:
+      required: false
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated, or a team name (e.g. "Microsoft Phi-4-Mini Team").
+      placeholder: "Sreyan Ghosh, Zhifeng Kong, ..."
+    validations:
+      required: false
+
+  - type: input
+    id: paper_link
+    attributes:
+      label: Paper link
+      description: arXiv URL preferred.
+      placeholder: https://arxiv.org/abs/2503.03983
+    validations:
+      required: false
+
+  - type: input
+    id: github_link
+    attributes:
+      label: GitHub link
+      placeholder: https://github.com/NVIDIA/audio-flamingo
+    validations:
+      required: false
+
+  - type: input
+    id: hf_link
+    attributes:
+      label: HuggingFace link
+      placeholder: https://huggingface.co/nvidia/audio-flamingo-2
+    validations:
+      required: false
+
+  - type: input
+    id: demo_link
+    attributes:
+      label: Demo / project page link
+      placeholder: https://research.nvidia.com/labs/adlr/AF2/
+    validations:
+      required: false
+
+  - type: dropdown
+    id: audio_input
+    attributes:
+      label: Audio input?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audio_output
+    attributes:
+      label: Audio output?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: English / Multilingual / Mandarin / ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One- to two-sentence description
+      description: What the work does, in a single short paragraph.
+      placeholder: "Audio Flamingo 2 is an audio-language model designed for long-audio understanding (up to 5 minutes) and expert reasoning over non-speech sounds and music."
+    validations:
+      required: true

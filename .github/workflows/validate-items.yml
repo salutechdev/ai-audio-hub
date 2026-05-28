@@ -1,0 +1,66 @@
+name: validate items
+
+on:
+  pull_request:
+    paths:
+      - 'items/**'
+      - 'schema.json'
+      - '.github/workflows/validate-items.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'items/**'
+      - 'schema.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install jsonschema
+        run: pip install jsonschema==4.23.0
+
+      - name: Validate every items/*.json against schema and check for duplicates
+        run: |
+          python3 << 'PY'
+          import json, os, sys
+          from jsonschema import Draft202012Validator
+
+          schema = json.load(open('schema.json'))
+          validator = Draft202012Validator(schema)
+          errors = 0
+          abbrev_seen = {}
+
+          for f in sorted(os.listdir('items')):
+              if not f.endswith('.json'):
+                  continue
+              try:
+                  data = json.load(open(f'items/{f}'))
+              except Exception as e:
+                  print(f'::error file=items/{f}::Failed to parse: {e}')
+                  errors += 1
+                  continue
+              for err in validator.iter_errors(data):
+                  path = '.'.join(str(p) for p in err.absolute_path) or '<root>'
+                  print(f'::error file=items/{f}::{path}: {err.message}')
+                  errors += 1
+              abbr = data.get('Abbreviation', '')
+              if abbr:
+                  abbrev_seen.setdefault(abbr, []).append(f)
+
+          for abbr, files in abbrev_seen.items():
+              if len(files) > 1:
+                  print(f'::error::Duplicate Abbreviation "{abbr}" in: {", ".join(files)}')
+                  errors += 1
+
+          if errors:
+              print(f'\nFAILED: {errors} validation error(s).')
+              sys.exit(1)
+          print(f'OK: validated {len(abbrev_seen)} items, no duplicates.')
+          PY

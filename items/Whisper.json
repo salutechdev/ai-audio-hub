@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Recognition",
+    "Type": "Speech Recognition Model",
+    "Abbreviation": "Whisper",
+    "Title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "Time": "2022-12",
+    "Affiliation": "OpenAI",
+    "Author": "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever",
+    "GitHub_Link": "https://github.com/openai/whisper",
+    "Paper_Link": "https://arxiv.org/abs/2212.04356",
+    "HF_Link": "https://huggingface.co/openai/whisper-large-v3",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "Whisper is OpenAI's open-source speech recognition model trained on 680K hours of multilingual and multitask supervised data from the web. It performs robust transcription, translation to English, and language identification across 99 languages."
+}

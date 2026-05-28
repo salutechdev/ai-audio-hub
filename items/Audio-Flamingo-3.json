@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Audio LLM",
+    "Abbreviation": "Audio Flamingo 3",
+    "Title": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
+    "Time": "2025-07",
+    "Affiliation": "NVIDIA",
+    "Author": "Arushi Goel, Sreyan Ghosh, Jaehyeon Kim, Sonal Kumar, Zhifeng Kong, Sang-gil Lee, Chao-Han Huck Yang, Ramani Duraiswami, Dinesh Manocha, Rafael Valle, Bryan Catanzaro",
+    "GitHub_Link": "https://github.com/NVIDIA/audio-flamingo",
+    "Paper_Link": "https://arxiv.org/abs/2507.08128",
+    "HF_Link": "https://huggingface.co/nvidia/audio-flamingo-3",
+    "Demo_Link": "https://research.nvidia.com/labs/adlr/AF3/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "Audio Flamingo 3 (AF3) is the third generation of NVIDIA's fully-open audio LLM, supporting longer audio context (up to ~10 min), think-then-answer reasoning, and stronger multilingual coverage. Training data, weights, and recipes are all released."
+}

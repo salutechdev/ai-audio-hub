@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "OWLS",
+    "Title": "OWLS: Scaling Laws for Multilingual Speech Recognition and Translation Models",
+    "Time": "2025-02",
+    "Affiliation": "Carnegie Mellon University, NVIDIA",
+    "Author": "William Chen, Jinchuan Tian, Yifan Peng, Brian Yan, Chao-Han Huck Yang, Shinji Watanabe",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2502.10373",
+    "HF_Link": "https://huggingface.co/collections/espnet/owls-67ab7e5a9b8ee8a31bd9aab9",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "OWLS systematically studies neural scaling laws for multilingual speech recognition and translation models, training a suite of models from 0.25B to 18B parameters on up to 360K hours of public speech data across 150+ languages to characterise how performance scales with data, compute, and parameter count."
+}

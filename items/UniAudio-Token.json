@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Speech Tokenizer",
+    "Abbreviation": "UniAudio-Token",
+    "Title": "UniAudio-Token: Empowering Semantic Speech Tokenizers with General Audio Perception",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Yuhan Song, Linhao Zhang, Aiwei Liu, Chuhan Wu, Sijun Zhang, Wei Jia, Yuan Liu, Houfeng Wang, et al.",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.31521",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "",
+    "Description": "UniAudio-Token augments single-codebook semantic speech tokenizers with general audio perception without sacrificing speech ability, addressing the 'acoustic blindness' of linguistically-focused tokenizers. It introduces Semantic-Acoustic Primitives (SAP) that decompose audio into linguistic content, vocal attributes, and auditory-scene primitives, plus a content-aware Semantic-Acoustic Equilibrium (SAE) gating mechanism."
+}

@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "Audio Flamingo 2",
+    "Title": "Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities",
+    "Time": "2025-03",
+    "Affiliation": "NVIDIA, University of Maryland",
+    "Author": "Sreyan Ghosh, Zhifeng Kong, Sonal Kumar, S Sakshi, Jaehyeon Kim, Wei Ping, Rafael Valle, Dinesh Manocha, Bryan Catanzaro",
+    "GitHub_Link": "https://github.com/NVIDIA/audio-flamingo",
+    "Paper_Link": "https://arxiv.org/abs/2503.03983",
+    "HF_Link": "https://huggingface.co/nvidia/audio-flamingo-2",
+    "Demo_Link": "https://research.nvidia.com/labs/adlr/AF2/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "English",
+    "Description": "Audio Flamingo 2 (AF2) is the successor to Audio Flamingo, designed for long-audio understanding (up to 5 minutes) and expert reasoning over non-speech sounds and music. The authors also introduce AudioSkills, LongAudio, and LongAudioBench to support training and evaluation."
+}

@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Recognition",
+    "Type": "Speech Recognition Toolkit",
+    "Abbreviation": "FunASR",
+    "Title": "FunASR: A Fundamental End-to-End Speech Recognition Toolkit",
+    "Time": "2023-05",
+    "Affiliation": "Speech Lab, Alibaba DAMO Academy",
+    "Author": "Zhifu Gao, Zerui Li, Jiaming Wang, Haoneng Luo, Xian Shi, Mengzhe Chen, Yabin Li, Lingyun Zuo, Zhihao Du, Zhangyu Xiao, Shiliang Zhang",
+    "GitHub_Link": "https://github.com/modelscope/FunASR",
+    "Paper_Link": "https://arxiv.org/abs/2305.11013",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "FunASR is an industrial-grade open-source speech recognition toolkit from Alibaba's Speech Lab that bridges academic research and production deployment. It ships pretrained models including the non-autoregressive Paraformer (SOTA CER on many Mandarin benchmarks), FSMN-VAD, punctuation restoration, CAM++ speaker diarization, timestamp prediction, and streaming recognition across 50+ languages."
+}

@@ -1,0 +1,18 @@
+{
+    "Category": "Multimodal",
+    "Type": "Model",
+    "Abbreviation": "MindVoice",
+    "Title": "MindVoice: Reconstructing Intelligible Speech from Non-invasive Neural Signals with Pretrained Priors",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Guangyin Bao, Taiping Zeng, Jianfeng Feng, Xiangyang Xue",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.31173",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "No",
+    "Audio_Output": "Yes",
+    "Language": "",
+    "Description": "MindVoice is a neuro-to-speech reconstruction framework that recovers intelligible speech from noisy, spatially-blurred non-invasive neural recordings by leveraging pretrained models to compensate for incomplete semantic and acoustic information. It targets safe, scalable speech brain-computer interfaces, moving past prior methods that produced spectrally-similar but unintelligible output."
+}

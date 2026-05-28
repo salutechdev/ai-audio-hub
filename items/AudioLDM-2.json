@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Audio Generation Model",
+    "Abbreviation": "AudioLDM 2",
+    "Title": "AudioLDM 2: Learning Holistic Audio Generation with Self-supervised Pretraining",
+    "Time": "2023-08",
+    "Affiliation": "University of Surrey, Imperial College London",
+    "Author": "Haohe Liu, Qiao Tian, Yi Yuan, Xubo Liu, Xinhao Mei, Qiuqiang Kong, Yuping Wang, Wenwu Wang, Yuxuan Wang, Mark D. Plumbley",
+    "GitHub_Link": "https://github.com/haoheliu/AudioLDM2",
+    "Paper_Link": "https://arxiv.org/abs/2308.05734",
+    "HF_Link": "https://huggingface.co/cvssp/audioldm2",
+    "Demo_Link": "https://audioldm.github.io/audioldm2/",
+    "Other_Link": "",
+    "Audio_Input": "No",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "AudioLDM 2 unifies speech, sound effects, and music generation in a single latent diffusion framework by introducing a shared 'language of audio' learnt from self-supervised pretraining, enabling holistic high-quality audio generation from text."
+}

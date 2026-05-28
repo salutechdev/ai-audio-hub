@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Recognition",
+    "Type": "Speech Recognition Model",
+    "Abbreviation": "MMS",
+    "Title": "Scaling Speech Technology to 1,000+ Languages",
+    "Time": "2023-05",
+    "Affiliation": "Meta AI",
+    "Author": "Vineel Pratap, Andros Tjandra, Bowen Shi, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli",
+    "GitHub_Link": "https://github.com/facebookresearch/fairseq/tree/main/examples/mms",
+    "Paper_Link": "https://arxiv.org/abs/2305.13516",
+    "HF_Link": "https://huggingface.co/facebook/mms-1b-all",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "MMS (Massively Multilingual Speech) extends speech foundation models (wav2vec 2.0) to 1,107 languages for ASR and adds TTS and language identification for 1,400+ languages, dramatically expanding speech coverage beyond the previously dominant ~100 languages."
+}

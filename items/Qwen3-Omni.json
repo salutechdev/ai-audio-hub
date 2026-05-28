@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Omni-Modal LLM",
+    "Abbreviation": "Qwen3-Omni",
+    "Title": "Qwen3-Omni Technical Report",
+    "Time": "2025-09",
+    "Affiliation": "Qwen Team, Alibaba Group",
+    "Author": "Qwen Team (Jin Xu, Zhifang Guo, Hangrui Hu, Yunfei Chu, Xiong Wang, Jinzheng He, Yuxuan Wang, et al.)",
+    "GitHub_Link": "https://github.com/QwenLM/Qwen3-Omni",
+    "Paper_Link": "https://arxiv.org/abs/2509.17765",
+    "HF_Link": "https://huggingface.co/collections/Qwen/qwen3-omni",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "Qwen3-Omni is the third-generation omni-modal LLM from Alibaba, scaling up the Thinker-Talker design with stronger multilingual ASR, audio understanding, and real-time speech generation across 100+ input and 30+ output languages."
+}

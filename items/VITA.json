@@ -1,0 +1,18 @@
+{
+    "Category": "Multimodal",
+    "Type": "Omni-Modal LLM",
+    "Abbreviation": "VITA",
+    "Title": "VITA: Towards Open-Source Interactive Omni Multimodal LLM",
+    "Time": "2024-08",
+    "Affiliation": "Tencent Youtu Lab, Nanjing University, Xiamen University",
+    "Author": "Chaoyou Fu, Haojia Lin, Zuwei Long, Yunhang Shen, Yuhang Dai, Meng Zhao, Yi-Fan Zhang, Ke Li, Xiawu Zheng, Rongrong Ji",
+    "GitHub_Link": "https://github.com/VITA-MLLM/VITA",
+    "Paper_Link": "https://arxiv.org/abs/2408.05211",
+    "HF_Link": "https://huggingface.co/VITA-MLLM/VITA",
+    "Demo_Link": "https://vita-home.github.io/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "VITA is one of the first fully open-source omni-modal LLMs supporting interactive video, image, audio, and text inputs with non-awakening interaction and audio interrupt — establishing a recipe later adopted by many Chinese omni models."
+}

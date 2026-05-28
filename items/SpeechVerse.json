@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "SpeechVerse",
+    "Title": "SpeechVerse: A Large-scale Generalizable Audio Language Model",
+    "Time": "2024-05",
+    "Affiliation": "Amazon AGI",
+    "Author": "Nilaksh Das, Saket Dingliwal, Srikanth Ronanki, Rohit Paturi, Zhaocheng Huang, Prashant Mathur, Jie Yuan, Dhanush Bekal, Xing Niu, Sai Muralidhar Jayanthi, Xilai Li, Karel Mundnich, Monica Sunkara, Sravan Bodapati, Sundararajan Srinivasan, Kyu J Han, Katrin Kirchhoff",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2405.08295",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "SpeechVerse is a large-scale multitask audio language model from Amazon AGI. It pairs a frozen speech foundation model with an LLM through a small trainable adapter and is supervised on a broad mixture of speech tasks via natural-language instructions, achieving strong zero- and few-shot generalisation across 11 speech understanding tasks."
+}

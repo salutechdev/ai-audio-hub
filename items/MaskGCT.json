@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "MaskGCT",
+    "Title": "MaskGCT: Zero-Shot Text-to-Speech with Masked Generative Codec Transformer",
+    "Time": "2024-09",
+    "Affiliation": "The Chinese University of Hong Kong (Shenzhen), Amphion",
+    "Author": "Yuancheng Wang, Haoyue Zhan, Liwei Liu, Ruihong Zeng, Haotian Guo, Jiachen Zheng, Qiang Zhang, Xueyao Zhang, Shunsi Zhang, Zhizheng Wu",
+    "GitHub_Link": "https://github.com/open-mmlab/Amphion/tree/main/models/tts/maskgct",
+    "Paper_Link": "https://arxiv.org/abs/2409.00750",
+    "HF_Link": "https://huggingface.co/amphion/MaskGCT",
+    "Demo_Link": "https://maskgct.github.io/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "MaskGCT is a fully non-autoregressive TTS system that predicts masked codec tokens with a transformer in two stages (text→duration→codec). Released as part of the Amphion toolkit; strong zero-shot voice cloning."
+}

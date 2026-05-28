@@ -1,0 +1,18 @@
+{
+    "Category": "Benchmark",
+    "Type": "Benchmark",
+    "Abbreviation": "Full-Duplex-Bench",
+    "Title": "Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities",
+    "Time": "2025-03",
+    "Affiliation": "National Taiwan University, UC Berkeley, MIT",
+    "Author": "Guan-Ting Lin, Jiachen Lian, Tingle Li, Qirui Wang, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee",
+    "GitHub_Link": "https://github.com/DanielLin94144/Full-Duplex-Bench",
+    "Paper_Link": "https://arxiv.org/abs/2503.04721",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "Full-Duplex-Bench is a benchmark for evaluating full-duplex spoken dialogue models on real-time interaction phenomena such as turn-taking, pauses, interruptions, and backchanneling — capabilities that traditional half-duplex evaluation cannot cover."
+}

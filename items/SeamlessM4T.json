@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Recognition",
+    "Type": "Speech Translation Model",
+    "Abbreviation": "SeamlessM4T",
+    "Title": "SeamlessM4T: Massively Multilingual & Multimodal Machine Translation",
+    "Time": "2023-08",
+    "Affiliation": "Meta AI",
+    "Author": "Seamless Communication Team (Loïc Barrault, Yu-An Chung, Mariano Coria Meglioli, et al.)",
+    "GitHub_Link": "https://github.com/facebookresearch/seamless_communication",
+    "Paper_Link": "https://arxiv.org/abs/2308.11596",
+    "HF_Link": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+    "Demo_Link": "https://seamless.metademolab.com/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "SeamlessM4T is Meta's unified multilingual multimodal translation model covering ASR, speech-to-text translation, speech-to-speech translation, text-to-text and text-to-speech across nearly 100 input and 35+ output languages in a single system."
+}

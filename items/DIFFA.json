@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "DIFFA",
+    "Title": "DIFFA: Large Language Diffusion Models Can Listen and Understand",
+    "Time": "2025-07",
+    "Affiliation": "Nankai University (NKU-HLT)",
+    "Author": "Jiaming Zhou, Hongjie Chen, Shiwan Zhao, Jian Kang, Jie Li, Enzhi Wang, Yujie Guo, Haoqin Sun, Hui Wang, Aobo Kong, Yong Qin, Xuelong Li",
+    "GitHub_Link": "https://github.com/NKU-HLT/DIFFA",
+    "Paper_Link": "https://arxiv.org/abs/2507.18452",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "DIFFA explores whether large language diffusion models (rather than autoregressive LLMs) can be adapted to listen to and understand audio, building an audio-conditioned diffusion language model and showing it can match autoregressive counterparts on audio understanding tasks."
+}

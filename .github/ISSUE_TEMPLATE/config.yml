@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/AudioLLMs/Awesome-Audio-LLM/blob/main/CONTRIBUTING.md
+    about: How items/*.json works, the JSON schema, and the format_input.py regeneration step.
+  - name: Have a paper to add yourself? Open a PR
+    url: https://github.com/AudioLLMs/Awesome-Audio-LLM/compare
+    about: Add items/<Abbreviation>.json, run python3 format_input.py, commit, and open a PR.

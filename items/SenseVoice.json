@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Recognition",
+    "Type": "Speech Understanding Model",
+    "Abbreviation": "SenseVoice",
+    "Title": "FunAudioLLM: Voice Understanding and Generation Foundation Models for Natural Interaction Between Humans and LLMs",
+    "Time": "2024-07",
+    "Affiliation": "Tongyi SpeechTeam, Alibaba Group",
+    "Author": "FunAudioLLM Team",
+    "GitHub_Link": "https://github.com/FunAudioLLM/SenseVoice",
+    "Paper_Link": "https://arxiv.org/abs/2407.04051",
+    "HF_Link": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "SenseVoice is a multilingual speech understanding foundation model (part of the FunAudioLLM report) that jointly performs speech recognition, spoken emotion recognition, and audio event detection. The non-autoregressive SenseVoice-Small (234M params) supports 50+ languages and runs roughly 5x faster than Whisper-Large at comparable accuracy."
+}

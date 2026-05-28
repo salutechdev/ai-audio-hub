@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Multimodal Language Model",
+    "Abbreviation": "Phi-4-Mini",
+    "Title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+    "Time": "2025-03",
+    "Affiliation": "Microsoft",
+    "Author": "Microsoft Phi-4-Mini Team",
+    "GitHub_Link": "https://github.com/microsoft/Phi-4",
+    "Paper_Link": "https://arxiv.org/abs/2503.01743",
+    "HF_Link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Multilingual",
+    "Description": "Phi-4-Mini and Phi-4-Multimodal are compact language and multimodal models from Microsoft. Phi-4-Mini is a 3.8B-parameter LLM; the multimodal variant extends it to vision and speech/audio via a Mixture-of-LoRAs design, achieving competitive results while remaining lightweight."
+}

@@ -1,0 +1,44 @@
+name: check README + docs sync
+
+on:
+  pull_request:
+    paths:
+      - 'items/**'
+      - 'format_input.py'
+      - 'README.md'
+      - 'docs/index.html'
+      - 'docs/data.json'
+      - 'docs/stars.json'
+      - '.github/workflows/check-readme-sync.yml'
+
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerate README.md + docs/index.html + docs/data.json and diff
+        run: |
+          python3 format_input.py
+          drift=0
+          for f in README.md docs/index.html docs/data.json; do
+            if ! git diff --quiet -- "$f"; then
+              echo "::error file=$f::$f is out of sync with items/*.json (and/or docs/stars.json)."
+              echo ''
+              echo "--- diff (first 100 lines of $f) ---"
+              git diff -- "$f" | head -100
+              drift=1
+            fi
+          done
+          if [ "$drift" -eq 0 ]; then
+            echo 'OK: README.md, docs/index.html, docs/data.json all in sync.'
+          else
+            echo ''
+            echo 'Run `python3 format_input.py` locally and commit the regenerated files before pushing.'
+            exit 1
+          fi

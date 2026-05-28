@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "CosyVoice 3",
+    "Title": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+    "Time": "2025-05",
+    "Affiliation": "FunAudioLLM Team, Tongyi Lab, Alibaba Group",
+    "Author": "Zhihao Du, Changfeng Gao, Yuxuan Wang, Fan Yu, Tianyu Zhao, Hao Wang, Xiang Lv, Hui Wang, Xian Shi, Keyu An, Guanrou Yang, Yabin Li, Yanni Chen, Zhifu Gao, Qian Chen, Yue Gu, Mengzhe Chen, Yafeng Chen, Shiliang Zhang, Wen Wang, Jieping Ye",
+    "GitHub_Link": "https://github.com/FunAudioLLM/CosyVoice",
+    "Paper_Link": "https://arxiv.org/abs/2505.17589",
+    "HF_Link": "https://huggingface.co/FunAudioLLM",
+    "Demo_Link": "https://funaudiollm.github.io/cosyvoice3/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "CosyVoice 3 scales the CosyVoice TTS stack with significantly larger pre-training data and a dedicated post-training stage, targeting in-the-wild speech generation across more languages, accents, and acoustic conditions."
+}

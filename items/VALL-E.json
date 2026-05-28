@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "VALL-E",
+    "Title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+    "Time": "2023-01",
+    "Affiliation": "Microsoft",
+    "Author": "Chengyi Wang, Sanyuan Chen, Yu Wu, Ziqiang Zhang, Long Zhou, Shujie Liu, Zhuo Chen, Yanqing Liu, Huaming Wang, Jinyu Li, Lei He, Sheng Zhao, Furu Wei",
+    "GitHub_Link": "https://github.com/microsoft/unilm/tree/master/valle",
+    "Paper_Link": "https://arxiv.org/abs/2301.02111",
+    "HF_Link": "",
+    "Demo_Link": "https://www.microsoft.com/en-us/research/project/vall-e-x/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "VALL-E reframes text-to-speech as a conditional language modeling task over discrete audio codec tokens (EnCodec), enabling zero-shot voice cloning from a 3-second enrollment recording with strong speaker similarity and prosody."
+}

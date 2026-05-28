@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "OpenJMLA",
+    "Title": "Joint Music and Language Attention Models for Zero-shot Music Tagging",
+    "Time": "2023-10",
+    "Affiliation": "ByteDance",
+    "Author": "Xingjian Du, Zhesong Yu, Jiaju Lin, Bilei Zhu, Qiuqiang Kong",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2310.10159",
+    "HF_Link": "https://huggingface.co/UniMus/OpenJMLA",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "English",
+    "Description": "JMLA (Joint Music and Language Attention) introduces an open-set music tagging model that combines a pretrained music encoder with a language model via attention, enabling zero-shot tagging on arbitrary tag vocabularies rather than fixed closed-set labels."
+}

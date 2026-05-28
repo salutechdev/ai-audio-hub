@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AudioLLMs/Awesome-Audio-LLM/schema.json",
+  "title": "Awesome-Audio-LLM item",
+  "description": "Schema for items/*.json. Each file describes one paper, model, benchmark, dataset, or survey. README.md is regenerated from these files by format_input.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "Category",
+    "Type",
+    "Abbreviation",
+    "Title",
+    "Time",
+    "Affiliation",
+    "Author",
+    "GitHub_Link",
+    "Paper_Link",
+    "HF_Link",
+    "Demo_Link",
+    "Other_Link",
+    "Audio_Input",
+    "Audio_Output",
+    "Language",
+    "Description"
+  ],
+  "properties": {
+    "Category": {
+      "type": "string",
+      "enum": [
+        "Model and Methods",
+        "Speech Recognition",
+        "Speech Synthesis",
+        "Audio Generation",
+        "Benchmark",
+        "Dataset Resource",
+        "Safety",
+        "Multimodal",
+        "Survey",
+        "Study",
+        "Chatbot"
+      ],
+      "description": "Top-level README section. Must be one of the canonical categories."
+    },
+    "Type": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short free-form descriptor (e.g. Model, Benchmark, Survey, Method, Dataset Resource, Research, Multimodal Language Model, Speech Recognition Model, Infrastructure)."
+    },
+    "Abbreviation": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short canonical name (e.g. SPIRIT LM, Audio Flamingo 2). Must be unique across items/. The JSON filename should match this slug."
+    },
+    "Title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full paper title or release title."
+    },
+    "Time": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$",
+      "description": "YYYY-MM of the arXiv submission or release. Used to sort the timeline image and README sections."
+    },
+    "Affiliation": {
+      "type": "string",
+      "description": "Comma-separated affiliation list. Empty string allowed."
+    },
+    "Author": {
+      "type": "string",
+      "description": "Comma-separated author list, or a team name (e.g. 'Microsoft Phi-4-Mini Team'). Empty string allowed."
+    },
+    "GitHub_Link": {
+      "type": "string",
+      "description": "Full URL or empty string."
+    },
+    "Paper_Link": {
+      "type": "string",
+      "description": "Full URL (arXiv preferred) or empty string."
+    },
+    "HF_Link": {
+      "type": "string",
+      "description": "HuggingFace URL or empty string."
+    },
+    "Demo_Link": {
+      "type": "string",
+      "description": "Demo site URL or empty string."
+    },
+    "Other_Link": {
+      "type": "string",
+      "description": "Project page, conference page, etc. Empty string allowed."
+    },
+    "Audio_Input": {
+      "type": "string",
+      "enum": ["Yes", "No", "", "-"],
+      "description": "Whether the work accepts audio input. Yes/No preferred; empty string and '-' are tolerated for legacy entries."
+    },
+    "Audio_Output": {
+      "type": "string",
+      "enum": ["Yes", "No", "", "-"],
+      "description": "Whether the work produces audio output. Yes/No preferred; empty string and '-' are tolerated for legacy entries."
+    },
+    "Language": {
+      "type": "string",
+      "description": "Free-form language descriptor (English, Multilingual, Mandarin, ...). Empty string allowed."
+    },
+    "Description": {
+      "type": "string",
+      "description": "One- to two-sentence summary. Empty string tolerated for legacy entries; required for new entries."
+    }
+  }
+}

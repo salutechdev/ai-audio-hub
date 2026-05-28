@@ -1,0 +1,18 @@
+{
+    "Category": "Speech Synthesis",
+    "Type": "TTS Model",
+    "Abbreviation": "StyleTTS 2",
+    "Title": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models",
+    "Time": "2023-06",
+    "Affiliation": "Columbia University",
+    "Author": "Yinghao Aaron Li, Cong Han, Vinay S. Raghavan, Gavin Mischler, Nima Mesgarani",
+    "GitHub_Link": "https://github.com/yl4579/StyleTTS2",
+    "Paper_Link": "https://arxiv.org/abs/2306.07691",
+    "HF_Link": "https://huggingface.co/spaces/styletts2/styletts2",
+    "Demo_Link": "https://styletts2.github.io/",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "English",
+    "Description": "StyleTTS 2 models speech styles as a latent random variable through diffusion and adversarial training with large speech language models, achieving human-level naturalness on LJSpeech and strong zero-shot speaker cloning."
+}

@@ -1,0 +1,18 @@
+{
+    "Category": "Model and Methods",
+    "Type": "Model",
+    "Abbreviation": "LTU-AS",
+    "Title": "Joint Audio and Speech Understanding",
+    "Time": "2023-09",
+    "Affiliation": "MIT, IBM Research",
+    "Author": "Yuan Gong, Alexander H. Liu, Hongyin Luo, Leonid Karlinsky, James Glass",
+    "GitHub_Link": "https://github.com/YuanGongND/ltu",
+    "Paper_Link": "https://arxiv.org/abs/2309.14405",
+    "HF_Link": "https://huggingface.co/spaces/yuangongfdu/ltu-2",
+    "Demo_Link": "https://huggingface.co/spaces/yuangongfdu/ltu-2",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "English",
+    "Description": "LTU-AS (Listen, Think, and Understand — Audio and Speech) extends the LTU model to jointly handle non-speech audio and speech understanding by combining a Whisper-style speech encoder with an audio event encoder, feeding both into an LLM for unified reasoning over audio inputs."
+}

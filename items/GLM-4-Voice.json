@@ -1,0 +1,18 @@
+{
+    "Category": "Chatbot",
+    "Type": "Spoken Dialogue Model",
+    "Abbreviation": "GLM-4-Voice",
+    "Title": "GLM-4-Voice: Towards Intelligent and Human-Like End-to-End Spoken Chatbot",
+    "Time": "2024-12",
+    "Affiliation": "Zhipu AI, Tsinghua University",
+    "Author": "Aohan Zeng, Zhengxiao Du, Mingdao Liu, Kedong Wang, Shengmin Jiang, Lei Zhao, Yuxiao Dong, Jie Tang",
+    "GitHub_Link": "https://github.com/THUDM/GLM-4-Voice",
+    "Paper_Link": "https://arxiv.org/abs/2412.02612",
+    "HF_Link": "https://huggingface.co/THUDM/glm-4-voice-9b",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Bilingual (Chinese and English)",
+    "Description": "GLM-4-Voice is an end-to-end spoken chatbot from Zhipu/Tsinghua that takes speech in and produces speech out directly, supporting low-latency streaming and natural Chinese / English conversation with controllable emotion, pitch, and speaking rate."
+}

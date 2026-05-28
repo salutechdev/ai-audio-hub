@@ -1,0 +1,18 @@
+{
+    "Category": "Multimodal",
+    "Type": "Omni-Modal LLM",
+    "Abbreviation": "MiniCPM-o",
+    "Title": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+    "Time": "2026-04",
+    "Affiliation": "ModelBest (OpenBMB), Tsinghua University",
+    "Author": "Junbo Cui, Bokai Xu, Chongyi Wang, Tianyu Yu, Weiyue Sun, Yingjing Xu, et al.",
+    "GitHub_Link": "https://github.com/OpenBMB/MiniCPM-o",
+    "Paper_Link": "https://arxiv.org/abs/2604.27393",
+    "HF_Link": "https://huggingface.co/openbmb/MiniCPM-o-2_6",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "MiniCPM-o 4.5 is OpenBMB's compact (8B-class) full-duplex omni-modal LLM supporting real-time vision, speech, and text interaction with low-latency streaming TTS, designed for on-device and edge deployment."
+}

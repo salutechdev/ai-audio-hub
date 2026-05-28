@@ -1,0 +1,18 @@
+{
+    "Category": "Dataset Resource",
+    "Type": "Dataset",
+    "Abbreviation": "BEA-Dialogue+",
+    "Title": "Scaling Conversational Hungarian ASR: The BEA-Dialogue+ Corpus",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Máté Gedeon, Piroska Zsófia Barta, Péter Mihajlik, Katalin Mády",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.31469",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "Hungarian",
+    "Description": "BEA-Dialogue+ is an expanded conversational Hungarian ASR corpus that relaxes the strictly speaker-disjoint split of BEA-Dialogue while preserving separation of the primary speakers, yielding 200 hours of transcribed natural conversation (up from 85). It enables a controlled study of the trade-off between additional training data and speaker overlap, evaluated with Whisper- and FastConformer-based models."
+}

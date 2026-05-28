@@ -1,0 +1,18 @@
+{
+    "Category": "Audio Generation",
+    "Type": "Neural Audio Codec",
+    "Abbreviation": "DAC",
+    "Title": "High-Fidelity Audio Compression with Improved RVQGAN",
+    "Time": "2023-06",
+    "Affiliation": "Descript",
+    "Author": "Rithesh Kumar, Prem Seetharaman, Alejandro Luebs, Ishaan Kumar, Kundan Kumar",
+    "GitHub_Link": "https://github.com/descriptinc/descript-audio-codec",
+    "Paper_Link": "https://arxiv.org/abs/2306.06546",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "Descript Audio Codec (DAC) is a high-fidelity universal 44.1 kHz neural audio codec achieving ~90x compression with substantially better quality than EnCodec, widely used as the discrete tokenizer for downstream audio generation models."
+}

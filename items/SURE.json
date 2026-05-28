@@ -1,0 +1,18 @@
+{
+    "Category": "Benchmark",
+    "Type": "Benchmark",
+    "Abbreviation": "SURE",
+    "Title": "A Unified and Reproducible Experimentation Framework for Speech Understanding",
+    "Time": "2026-05",
+    "Affiliation": "",
+    "Author": "Jing Peng, Junhao Du, Chenghao Wang, Hanqi Li, Yi Yang, Yixuan Wang, Xiaoyu Gu, Guanyu Chen, et al.",
+    "GitHub_Link": "",
+    "Paper_Link": "https://arxiv.org/abs/2605.30899",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "No",
+    "Language": "",
+    "Description": "SURE is a unified experimentation framework for speech understanding that standardizes prediction formats, normalization, and scoring to make evaluations comparable across paradigms, from conventional pipelines to Speech LLMs. It adds an agent-assisted training-conversion flow that maps papers and code into versioned, runnable training pipelines on matched open-data subsets."
+}

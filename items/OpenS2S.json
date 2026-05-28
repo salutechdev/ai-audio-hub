@@ -1,0 +1,18 @@
+{
+    "Category": "Chatbot",
+    "Type": "Spoken Dialogue Model",
+    "Abbreviation": "OpenS2S",
+    "Title": "OpenS2S: Advancing Fully Open-Source End-to-End Empathetic Large Speech Language Model",
+    "Time": "2025-07",
+    "Affiliation": "CASIA",
+    "Author": "Chen Wang, Tianyu Peng, Wen Yang, Yinan Bai, Guangfu Wang, Jun Lin, Lanpeng Jia, et al.",
+    "GitHub_Link": "https://github.com/CASIA-LM/OpenS2S",
+    "Paper_Link": "https://arxiv.org/abs/2507.05177",
+    "HF_Link": "",
+    "Demo_Link": "",
+    "Other_Link": "",
+    "Audio_Input": "Yes",
+    "Audio_Output": "Yes",
+    "Language": "Multilingual",
+    "Description": "OpenS2S is a fully open-source end-to-end empathetic speech-to-speech LLM, releasing training data, training recipe, and model weights, with explicit attention to paralinguistic empathy in spoken dialogue."
+}
